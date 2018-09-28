@@ -1,0 +1,17 @@
+default_fixed_links: False
+h_init: {{ h_init }}
+alpha: {{ alpha }}
+mannings_n: {{ mannings_n }}
+g: {{ g }}
+theta: {{ theta }}
+rainfall_intensity: {{ rainfall_intensity }}
+steep_slopes: False
+
+clock:
+  start: {{ clock_start }}
+  stop: {{ clock_stop }}
+  step: {{ clock_step }}
+grid:
+  type: raster
+  shape: [{{ grid_rows }}, {{ grid_columns }}]
+  spacing: [{{ grid_row_spacing }}, {{ grid_column_spacing }}]
